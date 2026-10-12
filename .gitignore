@@ -1,0 +1,10 @@
+# ===== 密钥：真实 token 绝不入库 =====
+.env
+.env.local
+
+# ===== Python 运行产物 =====
+__pycache__/
+*.pyc
+.venv/
+
+# 注意：.env.example 是 Token 模板，需要提交；仅 .env（真实 Token）被忽略。
